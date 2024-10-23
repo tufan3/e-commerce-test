@@ -5,8 +5,8 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Update Category') }}
-                    <a style="float: right;" href="{{ route('subcategories.index') }}" class="btn btn-danger btn-sm">All Category</a>
+                <div class="card-header">{{ __('Update Sub Category') }}
+                    <a style="float: right;" href="{{ route('subcategories.index') }}" class="btn btn-danger btn-sm">All Sub Category</a>
                 </div>
                 <div class="card-body">
                     <form action="{{ route('subcategories.update',$subcategory->subcategory_slug) }}" method="POST">

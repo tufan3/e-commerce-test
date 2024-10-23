@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Edit Product') }}
+                <div class="card-header">{{ __('Update Product') }}
                     <a style="float: right;" href="{{ route('products.index') }}" class="btn btn-danger btn-sm">All Products</a>
                 </div>
                 <div class="card-body">

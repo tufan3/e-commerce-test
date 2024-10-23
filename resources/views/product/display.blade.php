@@ -35,16 +35,10 @@
                                                 <div class="card-body">
                                                     <a style="text-decoration: none" href="{{ route('products.show', $product->product_slug) }}"><h5 class="card-title">{{ $product->product_name }}</h5></a>
 
-                                                    <!-- Product Description -->
-                                                    {{-- <p class="card-text">{{ Str::limit($product->description, 100) }}</p> --}}
-
                                                     <p class="card-text">
                                                         <span class="text-muted"><del>{{ $product->old_price }} BDT</del></span><br>
                                                         <strong>{{ $product->new_price }} BDT</strong>
                                                     </p>
-
-                                                    <!-- View Product Button with Slug URL -->
-                                                    {{-- <a href="{{ route('product.show', $product->slug) }}" class="btn btn-primary">View Product</a> --}}
                                                 </div>
                                             </div>
                                         </div>
